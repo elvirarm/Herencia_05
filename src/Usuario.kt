@@ -1,6 +1,7 @@
-sealed class Usuario (puedeSacarLibro: Boolean) {
-    class Estudiante:Usuario (true)
-    class Profesor:Usuario (true)
-    class Visitante:Usuario (false)
+sealed class Usuario () {
+
+    class Profesor:Usuario()
+    class Visitante:Usuario()
+    class Estudiante:Usuario()
 
 }
